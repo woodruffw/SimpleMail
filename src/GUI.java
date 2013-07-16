@@ -1,3 +1,8 @@
+/*  GUI.java        Author: Victor Reyes, William Woodruff
+ *  Provides a simple GUI for utilizing Sender
+ *  Licensed under the MIT License
+ */
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

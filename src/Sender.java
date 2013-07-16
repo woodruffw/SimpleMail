@@ -1,6 +1,6 @@
-/* Sender.java          Authors: v-sizzle, gnom
- * Sends mail and shit.
- * Coded 5/7/13
+/* Sender.java          Authors: William Woodruff, Victor Reyes
+ * Provides a clean outline for Sender objects capable of GMail, Yahoo!, and Hotmail SMTP
+ * Licensed under the MIT License 
  */
 
 //imports da packages
@@ -47,8 +47,8 @@ public class Sender
     text = txt;
     props = SMTP_GMAIL;
     ses = Session.getInstance(props,
-                              new javax.mail.Authenticator() {
-      protected PasswordAuthentication getPasswordAuthentication() {
+        new javax.mail.Authenticator() {
+        protected PasswordAuthentication getPasswordAuthentication() {
         return new PasswordAuthentication(username, password);
       }
     });

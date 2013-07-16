@@ -1,3 +1,8 @@
+/* 	Driver.java 	Author: Victor Reyes, William Woodruff
+ *	Acts as a launchpoint for GUI.java
+ *	Licensed under the MIT License
+ */
+
 import javax.swing.JFrame;
 
 public class Driver extends JFrame {
