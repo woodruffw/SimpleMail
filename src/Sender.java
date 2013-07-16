@@ -195,7 +195,7 @@ public class Sender
     } 
   }
   
-  //sends da message of the gang
+  //transmits the message
   public void mail()
   {
     prep();
@@ -205,7 +205,6 @@ public class Sender
     }
     catch (MessagingException e)
     {
-      //you fucked up
       e.printStackTrace();
     }
   }
