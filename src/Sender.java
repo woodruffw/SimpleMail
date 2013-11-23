@@ -3,7 +3,6 @@
  * Licensed under the MIT License 
  */
 
-//imports da packages
 import java.util.*;
 import javax.swing.*;
 import javax.mail.*;
@@ -190,7 +189,6 @@ public class Sender
     }
     catch (MessagingException e)
     {
-      //you fucked up
       e.printStackTrace();
     } 
   }
